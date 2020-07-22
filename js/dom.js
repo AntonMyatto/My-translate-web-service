@@ -6,10 +6,8 @@ inputTranslate.onclick = function(event){
    inputBlock.style.borderColor = "red";
    
 };
-window.onclick = function(){
-    inputBlock.style.borderColor = "grey";
-};
+
 inputClear.onclick = function(){
-    
+    inputTranslate.value = '';
 }
 
